@@ -1,0 +1,45 @@
+@charset "utf-8";
+#principal {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#principal #encabezado {
+	height: 200px;
+	width: 900px;
+}
+#principal #menu {
+	height: 46px;
+	width: 900px;
+}
+#principal #contenido {
+	padding: 50px;
+	width: 800px;
+	background-color: #FFF;
+	float: left;
+}
+body {
+	background-image: url(../imagenes/portada.gif);
+	margin-top: 0px;
+	background-color: #F6AA06;
+}
+
+#principal #pie {
+	width: 900px;
+	height: 50px;
+	float: left;
+	padding-top: 30px;
+	text-align: center;
+	background-image: url(../imagenes/pie_fondo.gif);
+	color: #F6AA06;
+	background-color: #F00;
+}
+#principal #contenido #texto {
+	float: left;
+	width: 400px;
+	margin-right: 50px;
+}
+#principal #contenido #imagen {
+	float: left;
+	width: 350px;
+}
